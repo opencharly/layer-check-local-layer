@@ -1,7 +1,5 @@
-version: 2026.240.1943
 check-local-layer:
     candy:
-        version: 2026.216.0700
         description: |
             Drop /etc/check-local-marker on the host filesystem
             Used by the check-local kind:local template to exercise the
