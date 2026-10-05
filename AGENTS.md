@@ -38,7 +38,7 @@ Canonical files:
   per-repo candy gate. Its only workflow file is
   `.github/workflows/tag-on-merge.yml`.
 - The fixture's proof is the `check-local` `kind: local` template: the markers on
-  the host filesystem after `charly fleet add`, and the `systemd` service
+  the host filesystem after `charly deploy add`, and the `systemd` service
   reported active — all asserted by the bed's deploy-scope probes.
 
 ## Modify this repo
