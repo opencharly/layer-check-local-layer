@@ -12,7 +12,7 @@ the externalized `target: local` path (`candy/plugin-deploy-local` +
 - an act-verb run-step lands a second marker (`/tmp/charly-check-local-act/marker`)
   via the host's `RunHostStep` act-`OpStep` arm;
 - deploy-scope `check:` probes run on the host (not in a container) to verify both
-  markers after `charly fleet add`.
+  markers after `charly deploy add`.
 
 The candy also declares a custom (non-packaged) `systemd` service,
 `check-local-marker-daemon`, proving the render-service **DISPATCH** path a
